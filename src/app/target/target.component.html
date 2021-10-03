@@ -1,0 +1,11 @@
+<!-- <div app-fast-select></div> -->
+<canvas
+  id="canvas"
+  (mousewheel)="wheelService.mousewheel($event)"
+  (mouseout)="moveService.mousemove($event)"
+  (mousemove)="moveService.mousemove($event)"
+  (mousedown)="moveService.mousemove($event)"
+  (mouseup)="moveService.mousemove($event)"
+  style="position: absolute; left: 0; top: 0"
+></canvas>
+<div app-watermark></div>

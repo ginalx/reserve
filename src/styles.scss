@@ -1,1 +1,27 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "Montserrat";
+  src: url("./assets/fonts/montserrat/Montserrat-Regular.ttf")
+    format("truetype");
+}
+@font-face {
+  font-family: "Poiret";
+  src: url("./assets/fonts/poiret/PoiretOne-Regular.ttf") format("truetype");
+}
+
+:host {
+  font-family: "Poiret";
+  font-size: 14px;
+  color: #333;
+  box-sizing: border-box;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+html,
+body {
+  font-family: "Poiret";
+  padding: 0;
+  margin: 0;
+  overflow: hidden;
+}
